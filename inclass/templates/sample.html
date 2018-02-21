@@ -1,0 +1,9 @@
+{% extends "structure.html" %}
+{% block main %}
+
+<form action="/login" method="post"><!-- What attribute do we assign the value "teucer" to? -->
+	<input name="username" placeholder="Username" type="text">
+	<input name="password" placeholder="Password" type="password">
+	<input value="Button text" type="submit"><!-- This is a button -->
+</form>
+{% endblock main %}
