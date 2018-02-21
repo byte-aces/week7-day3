@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {# This is a comment in Jinja #}
+        <!-- This is a comment in HTML -->
+        <meta charset="utf-8">
+        <title>Title is being rendered by structure.html</title>
+        <link rel="stylesheet" href="static/style.css">
+        <script src="static/behavior.js"></script>
+    </head>
+    <body>
+        <fuck>
+            <p>This is a paragraph inside of a semantic div.</p>
+        </fuck>
+        <div>
+            {% block main %}
+            {% endblock main %}
+        </div>
+    </body>
+</html>
